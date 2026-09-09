@@ -38,7 +38,7 @@ This project involves:
 
 Everything is for Free!
 - **[Datasets](datasets/):** Access to the project dataset (csv files).
-- **[MySQL]:** For hosting your SQL database.
+- **[MySQL](https://www.mysql.com/):** For hosting your SQL database.
 - **[Git Repository](https://github.com/):** Set up a GitHub account and repository to manage, version, and collaborate on your code efficiently.
 - **[Canva](https://www.canva.com/):** Design data architecture, models, flows, and diagrams.
 - **[Notion](https://www.notion.com/templates/sql-data-warehouse-project):** Get the Project Template from Notion
