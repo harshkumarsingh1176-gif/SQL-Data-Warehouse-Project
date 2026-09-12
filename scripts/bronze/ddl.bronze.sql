@@ -9,14 +9,6 @@ Script Purpose:
 ===============================================================================
 */
 
-DELIMITER //
-CREATE PROCEDURE bronze.load_bronze ()
-Begin
-	SELECT ' Loading Bronze Layer' AS Message;
-    
-    SELECT ' Loading CRM Table' AS Message;
-    
-    SELECT '>> Inserting Data Into: bronze.crm_cust_info' AS Message;
 	CREATE TABLE bronze.crm_cust_info (
 		cst_id INT,
 		cst_key VARCHAR (50),
@@ -73,14 +65,4 @@ Begin
 		subcat VARCHAR (50),
 		maintenance VARCHAR (50)
 		);
-  END //
   
-  DELIMITER ;
-  
-
-    SELECT * FROM bronze.crm_cust_info;
-    SELECT count(*) FROM bronze.epr_loc_a101;
-    
-    CALL load_bronze();
-
-    CALL bronze.load_bronze();
