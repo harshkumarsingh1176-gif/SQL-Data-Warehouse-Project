@@ -65,14 +65,23 @@ Develop a modern data warehouse using MySQL to consolidate sales data, enabling 
 
 ### BI: Analytics & Reporting (Data Analysis)
 
-#### Objective
-Develop SQL-based analytics to deliver detailed insights into:
-- **Customer Behavior**
-- **Product Performance**
-- **Sales Trends**
+## Objective
+This project delivers SQL-based analytics that uncover actionable insights into:
+- **Customer Behavior** — purchasing patterns, segmentation, and lifetime value
+- **Product Performance** — sales contribution, category trends, and top/bottom performers
+- **Sales Trends** — growth patterns, seasonality, and cumulative performance over time
 
-These insights empower stakeholders with key business metrics, enabling strategic decision-making.  
+## Overview
+A comprehensive collection of SQL scripts for data exploration, analytics, and reporting — built for data analysts and BI professionals who need to quickly explore, segment, and analyze data within a relational database.
 
+Each script is organized around a specific analytical theme, including:
+- 🔍 **Database Exploration** — understanding schema structure and data relationships
+- 📈 **Measures & Metrics** — core KPIs and summary statistics
+- 📅 **Time-Based Trends** — analyzing performance across days, months, and years
+- 📊 **Cumulative Analytics** — running totals and moving averages
+- 🧩 **Segmentation** — grouping customers and products by behavior and performance
+- 📉 **And more...**
+- 
 ## 📂 Repository Structure
 ```
 data-warehouse-project/
